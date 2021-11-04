@@ -1,0 +1,79 @@
+ /* Add a black background color to the top navigation */
+ .topnav {
+    background-color: mediumpurple;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  } 
+  #formCadastroFilmes {
+    background-color: whitesmoke;
+    float: inherit;
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    margin-left: 25%;
+    margin-top: 60px;
+    border-style: solid;
+    border-radius: 20% !important;
+  }
+  #campoCadastroTituloFilme {
+    margin-top: 20%;
+    margin-left: 20%;
+  }
+  #campoCadastroCategoriaFilme {
+    margin-top: 3%;
+    margin-left: 20%;
+  }
+  #campoCadastroDataInicialFilme {
+    margin-top: 3%;
+    margin-left: 20%;
+  }
+  #campoCadastroDataFinalFilme {
+    margin-top: 3%;
+    margin-left: 20%;
+  }
+  #botaoCadastro {
+    margin-top: 25%;
+    margin-left: 45%;
+  }
+  #tituloFilmeCadastro{
+    width: 41%;
+  }
+  #categoriaCadastro{
+    width: 49%;
+  }
+  #dataInicialCadastro{
+    width: 23%;
+  }
+  #dataFinalCadastro{
+    width: 23.5%;
+  }
+  #body{
+    background-color: mediumpurple;
+}

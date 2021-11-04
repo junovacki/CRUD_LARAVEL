@@ -1,0 +1,66 @@
+#formCadastro {
+    background-color: whitesmoke;
+    float: inherit;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    margin-left: 35%;
+    margin-top: 200px;
+    border-style: solid;
+    border-radius: 20% !important;
+}
+#formLogin {
+    background-color: whitesmoke;
+    float: inherit;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    margin-left: 35%;
+    margin-top: 200px;
+    border-style: solid;
+}
+
+#campoNomeLogin {
+    margin-top: 20%;
+    margin-left: 20%;
+}
+#nomeLogin{
+    width: 65%;
+}
+#nomeCadastro{
+    width: 65%;
+}
+#clienteCadastro{
+    width: 37.5%;
+}
+#campoSenhaLogin {
+    margin-top: 3%;
+    margin-left: 20%;
+}
+#linkLogin {
+    color: blue;
+    margin-left: 55%;
+}
+#botaoLogin {
+    margin-top: 15%;
+    margin-left: 45%;
+}
+#campoNomeCadastro {
+    margin-top: 20%;
+    margin-left: 20%;
+}
+#campoSenhaCadastro {
+    margin-top: 3%;
+    margin-left: 20%;
+}
+#campoClienteCadastro {
+    margin-top: 3%;
+    margin-left: 20%;
+}
+#botaoCadastro {
+    margin-top: 15%;
+    margin-left: 45%;
+}
+#body{
+    background-color: mediumpurple;
+}
