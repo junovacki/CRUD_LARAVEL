@@ -20,6 +20,9 @@
             use Illuminate\Support\Facades\DB;
             $cont=1;
             $resultset = DB::select("SELECT * FROM filmes WHERE cadastradoPor = ?", [$_COOKIE['login']]);
+            
+            
+
             foreach( $resultset as $record) {
     
         ?>
@@ -62,6 +65,27 @@
     <?php 
     $cont++;
 } ?>
+<?php 
+if($resultset == []){
+?>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<marquee><h1>CADASTRE UM FILME PARA QUE ELE APAREÇA AQUI</h1></marquee>
+<?php }?>
     </div>
 </body>
 </html>

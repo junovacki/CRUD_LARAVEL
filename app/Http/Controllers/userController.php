@@ -143,6 +143,7 @@ class userController extends Controller
             window.location.href='dashboard';</script>";
             die();
         }else{
+            DB::delete('DELETE FROM filmes WHERE id_filmes = ?', [$idFilmes]);
             if($dataHoje <= $dataEntrega){
             echo"<script language='javascript' type='text/javascript'>
             alert('Filme entregue sem valor adicional na entrega');
