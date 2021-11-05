@@ -1,0 +1,17 @@
+Projeto de CRUD em Laravel para uma locadora de filmes
+
+1°Passo:
+
+    Cliente deve fazer o login, caso não tenha um deve se registrar
+    
+2°Passo:
+
+    Cliente deve fazer o cadastro de filmes para que apareça no dashboard
+    
+3°Passo:
+
+    Cliente deve entregar o filme no dashboard, se a data em tempo real do cliente passar da data limite de entrega do filme é exibido uma mensagem que ele deve pagar uma multa na entrega
+    
+    
+    
+ESTRUTURA DO BANCO: link.drive
